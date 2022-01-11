@@ -12,7 +12,7 @@ html {
 }
 
 body {
-  font-family: "Raleway", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 1.6rem;
 }
 
@@ -66,7 +66,7 @@ body {
   font-size: 1.4rem;
   color: #feac58;
   margin-top: 7px;
-  letter-spacing: .1rem;
+  letter-spacing: 0.1rem;
 }
 
 .bg-gold {
@@ -74,7 +74,7 @@ body {
 }
 
 .bg-brown {
-  background-color: #4E7457;
+  background-color: #4e7457;
 }
 
 .navbar-dark .navbar-nav .nav-link {
@@ -85,7 +85,8 @@ body {
   color: #feac58;
 }
 
-.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
+.navbar-dark .navbar-nav .nav-link:focus,
+.navbar-dark .navbar-nav .nav-link:hover {
   color: #feac58;
 }
 
@@ -142,21 +143,6 @@ header img {
   background-image: url("../img/renovation-s.jpg");
 }
 
-@media screen and (min-width: 1400px) {
-  .carousel-item {
-    height: 600px;
-  }
-  .carousel-img-one {
-    background-image: url("../img/saw-m.jpg");
-  }
-  .carousel-img-two {
-    background-image: url("../img/gardener-m.jpg");
-  }
-  .carousel-img-three {
-    background-image: url("../img/renovation-m.jpg");
-  }
-}
-
 /*MAIN*/
 /*HOME*/
 .home-boxes {
@@ -206,5 +192,118 @@ footer {
 .aboutus-hero {
   background-image: url("../img/raking-bg.jpg");
   background-position: bottom;
+}
+
+.icon-style {
+  -webkit-filter: invert(65%) sepia(53%) saturate(462%) hue-rotate(347deg) brightness(101%) contrast(99%);
+          filter: invert(65%) sepia(53%) saturate(462%) hue-rotate(347deg) brightness(101%) contrast(99%);
+}
+
+.card {
+  border: none;
+}
+
+/*SERVICES*/
+.services-hero {
+  background-image: url("../img/saw-m.jpg");
+  background-position: center;
+}
+
+.service-hero-box {
+  position: relative;
+  height: 300px;
+  background-position: center;
+  background-size: cover;
+  z-index: 0;
+}
+
+.service-hero-box p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  font-size: 3rem;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.box-one {
+  background-image: url("../img/garden-work.jpg");
+}
+
+.box-two {
+  background-image: url("../img/felling-bg-s.jpg");
+}
+
+.box-three {
+  background-image: url("../img/house-renovation.jpg");
+}
+
+.box-four {
+  background-image: url("../img/gardener-xs.jpg");
+}
+
+/* SERVICES */
+.projects-hero {
+  background-image: url("../img/project-bg.jpg");
+  background-position: center;
+}
+
+.projects .card img {
+  height: 240px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.projects .btn {
+  font-size: 1.4rem;
+  text-transform: uppercase;
+}
+
+/*CONTACT*/
+.contact-hero {
+  background-image: url("../img/contact.jpg");
+  background-position: center;
+}
+
+.contact h2 {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 2.6rem;
+}
+
+.contact input, .contact select, .contact textarea {
+  font-size: 1.6rem;
+}
+
+.contact .btn {
+  padding: 0.3em 0.8em;
+  font-size: 2rem;
+}
+
+.contact-map iframe {
+  width: 100%;
+  min-height: 400px;
+}
+
+@media screen and (min-width: 1400px) {
+  .carousel-item {
+    height: 600px;
+  }
+  .carousel-img-one {
+    background-image: url("../img/saw-m.jpg");
+  }
+  .carousel-img-two {
+    background-image: url("../img/gardener-m.jpg");
+  }
+  .carousel-img-three {
+    background-image: url("../img/renovation-m.jpg");
+  }
 }
 /*# sourceMappingURL=main.css.map */
