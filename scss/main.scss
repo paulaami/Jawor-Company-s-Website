@@ -57,7 +57,7 @@ body {
 	&-text {
 		text-align: center;
 		font-size: 1.4rem;
-		color: #feac58;
+		color: $orange;
 		margin-top: 7px;
 		letter-spacing: 0.1rem;
 	}
@@ -82,12 +82,12 @@ body {
 }
 
 .navbar-dark .navbar-nav .nav-link.active {
-	color: #feac58;
+	color: $orange;
 }
 
 .navbar-dark .navbar-nav .nav-link:focus,
 .navbar-dark .navbar-nav .nav-link:hover {
-	color: #feac58;
+	color: $orange;
 }
 
 /*NAV*/
@@ -155,8 +155,7 @@ header {
 
 .accept-icon {
   width: 35px;
-  filter: invert(65%) sepia(53%) saturate(462%) hue-rotate(347deg)
-				brightness(101%) contrast(99%);
+  filter: invert(65%) sepia(57%) saturate(501%) hue-rotate(354deg) brightness(93%) contrast(83%);
 }
 
 .home {
@@ -167,8 +166,7 @@ header {
 	&-box {
 		&-icon {
 			width: 70px;
-			filter: invert(65%) sepia(53%) saturate(462%) hue-rotate(347deg)
-				brightness(101%) contrast(99%);
+			filter: invert(65%) sepia(57%) saturate(501%) hue-rotate(354deg) brightness(93%) contrast(83%);
 		}
 
 		h3 {
@@ -203,6 +201,30 @@ header {
 	}
 }
 
+.rewards {
+  background-image: url('../img/barrow-g8c5c9b16e_1920.jpg');
+  background-position: top;
+  height: auto;
+  min-height: 350px;
+
+  .home-box-icon {
+    filter: none;
+    width: 140px;
+  }
+  .count {
+    position: relative;
+
+    h3 {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+      color: $orange;
+      font-size: 4rem;
+    }
+  }
+}
+
 /*FOOTER*/
 
 footer {
@@ -219,8 +241,7 @@ footer {
 }
 
 .icon-style {
-	filter: invert(65%) sepia(53%) saturate(462%) hue-rotate(347deg)
-		brightness(101%) contrast(99%);
+	filter: invert(65%) sepia(57%) saturate(501%) hue-rotate(354deg) brightness(93%) contrast(83%);
 }
 
 .card {
