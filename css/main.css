@@ -153,6 +153,12 @@ header img {
 
 /*MAIN*/
 /*HOME*/
+.accept-icon {
+  width: 35px;
+  -webkit-filter: invert(65%) sepia(53%) saturate(462%) hue-rotate(347deg) brightness(101%) contrast(99%);
+          filter: invert(65%) sepia(53%) saturate(462%) hue-rotate(347deg) brightness(101%) contrast(99%);
+}
+
 .home-boxes {
   padding: 5em 0;
 }
@@ -173,6 +179,7 @@ header img {
   background-image: url("../img/raking.jpg");
   background-position: center;
   background-size: cover;
+  background-attachment: fixed;
   z-index: 0;
 }
 
