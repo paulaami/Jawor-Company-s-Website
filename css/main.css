@@ -14,6 +14,7 @@ html {
 body {
   font-family: "Poppins", sans-serif;
   font-size: 1.6rem;
+  color: #353530;
 }
 
 .hero-shadow {
@@ -53,6 +54,7 @@ body {
 .top-hero-text {
   font-size: 3.6rem;
   text-transform: uppercase;
+  font-weight: 500;
 }
 
 .underline {
@@ -67,6 +69,12 @@ body {
   color: #feac58;
   margin-top: 7px;
   letter-spacing: 0.1rem;
+}
+
+.heading {
+  text-transform: uppercase;
+  color: #353530;
+  font-weight: 500;
 }
 
 .bg-gold {
@@ -306,8 +314,4 @@ footer {
     background-image: url("../img/renovation-m.jpg");
   }
 }
-<<<<<<< HEAD
 /*# sourceMappingURL=main.css.map */
-=======
-/*# sourceMappingURL=main.css.map */
->>>>>>> 50fd6ef7d4d94291d1fb48b90e78832729f73ba6
