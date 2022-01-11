@@ -3,224 +3,323 @@
 *,
 *::after,
 *::before {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
 }
 
 html {
-  font-size: 62.5%;
+	font-size: 62.5%;
 }
 
 body {
-  font-family: "Raleway", sans-serif;
-  font-size: 1.6rem;
+	font-family: "Poppins", sans-serif;
+	font-size: 1.6rem;
 }
 
 .hero-shadow {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(43, 36, 27, 0.7);
-  z-index: -1;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(43, 36, 27, 0.7);
+	z-index: -1;
 }
 
 .top-hero {
- display: flex;
- flex-direction: column;
- justify-content: center;
- align-items: center;
- position: relative;
- height: 300px;
- background-size: cover;
- z-index: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	height: 300px;
+	background-size: cover;
+	z-index: 0;
 
- &-logo {
-  margin-bottom: 15px;
- }
+	&-logo {
+		margin-bottom: 15px;
+	}
 
- &-text {
-  font-size: 3.6rem;
-  text-transform: uppercase;
- }
+	&-text {
+		font-size: 3.6rem;
+		text-transform: uppercase;
+	}
 }
 
 .underline {
- display: block;
- margin: 0 auto;
- width: 90px;
+	display: block;
+	margin: 0 auto;
+	width: 90px;
 
- &-text {
-  text-align: center;
-  font-size: 1.4rem;
-  color: #feac58;
-  margin-top: 7px;
-  letter-spacing: .1rem;
- }
+	&-text {
+		text-align: center;
+		font-size: 1.4rem;
+		color: #feac58;
+		margin-top: 7px;
+		letter-spacing: 0.1rem;
+	}
 }
 
-// .heading {
-//  position: relative;
-//  img {
-//   position: absolute;
-//   left: 50%;
-//   transform: translateX(-50%);
-//  }
-// }
-
 .bg-gold {
- background-color: $gold;
+	background-color: $gold;
 }
 
 .bg-brown {
- background-color: #4E7457;
+	background-color: #4e7457;
 }
 
 .navbar-dark .navbar-nav .nav-link {
- color: #fff;
+	color: #fff;
 }
 
 .navbar-dark .navbar-nav .nav-link.active {
- color: #feac58;
+	color: #feac58;
 }
 
-.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
- color: #feac58;
+.navbar-dark .navbar-nav .nav-link:focus,
+.navbar-dark .navbar-nav .nav-link:hover {
+	color: #feac58;
 }
 
 /*NAV*/
 
 nav {
-  font-size: 2rem;
-  text-transform: uppercase;
+	font-size: 2rem;
+	text-transform: uppercase;
 }
 
 .navbar-toggler {
-  font-size: 3rem;
+	font-size: 3rem;
 }
 
 .nav {
-  &__logo {
-    font-size: 3rem;
-    text-transform: uppercase;
-    font-weight: bold;
-    letter-spacing: 0.1rem;
-    // &-color {
-    //   color: $green;
-    // }
-    img {
-      height: 80px;
-      width: auto;
-    }
-  }
+	&__logo {
+		font-size: 3rem;
+		text-transform: uppercase;
+		font-weight: bold;
+		letter-spacing: 0.1rem;
+		// &-color {
+		//   color: $green;
+		// }
+		img {
+			height: 80px;
+			width: auto;
+		}
+	}
 }
 
 /*HEADER*/
 
 header {
-  font-size: 2rem;
+	font-size: 2rem;
 
-  img {
-    position: relative;
-    bottom: 40px;
-  }
+	img {
+		position: relative;
+		bottom: 40px;
+	}
 }
 
 .carousel-item {
-  position: relative;
-  height: 400px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  z-index: 0;
+	position: relative;
+	height: 400px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	z-index: 0;
 }
 
 .carousel-img-one {
-  background-image: url("../img/saw-xs.jpg");
+	background-image: url("../img/saw-xs.jpg");
 }
 .carousel-img-two {
-  background-image: url("../img/gardener-xs.jpg");
+	background-image: url("../img/gardener-xs.jpg");
 }
 .carousel-img-three {
-  background-image: url("../img/renovation-s.jpg");
+	background-image: url("../img/renovation-s.jpg");
 }
 
-@media screen and (min-width: 1400px) {
-  .carousel-item {
-    height: 600px;
-  }
 
-  .carousel-img-one {
-    background-image: url("../img/saw-m.jpg");
-  }
-  .carousel-img-two {
-    background-image: url("../img/gardener-m.jpg");
-  }
-  .carousel-img-three {
-    background-image: url("../img/renovation-m.jpg");
-  }
-}
 
 /*MAIN*/
 
 /*HOME*/
 
 .home {
-  &-boxes {
-    padding: 5em 0;
-  }
+	&-boxes {
+		padding: 5em 0;
+	}
 
-  &-box {
-    &-icon {
-      width: 70px;
-      filter: invert(65%) sepia(53%) saturate(462%) hue-rotate(347deg) brightness(101%) contrast(99%);
-    }
+	&-box {
+		&-icon {
+			width: 70px;
+			filter: invert(65%) sepia(53%) saturate(462%) hue-rotate(347deg)
+				brightness(101%) contrast(99%);
+		}
 
-    h3 {
-      font-size: 2.6rem;
-    }
-  }
+		h3 {
+			font-size: 2.6rem;
+		}
+	}
 
-  &-passion {
-   position: relative;
-   height: 350px;
-   background-image: url('../img/raking.jpg');
-   background-position: center;
-   background-size: cover;
-   z-index: 0;
-  }
+	&-passion {
+		position: relative;
+		height: 350px;
+		background-image: url("../img/raking.jpg");
+		background-position: center;
+		background-size: cover;
+		z-index: 0;
+	}
 
-  &-brand {
-   h3 {
-    font-size: 3rem;
-    font-weight: bold;
-   }
+	&-brand {
+		h3 {
+			font-size: 3rem;
+			font-weight: bold;
+		}
 
-   &-bottom {
-    position: relative;
-    img {
-     position: absolute;
-     bottom: 0;
-     max-width: 250px;
-    }
-   }
-
-  }
+		&-bottom {
+			position: relative;
+			img {
+				position: absolute;
+				bottom: 0;
+				max-width: 250px;
+			}
+		}
+	}
 }
 
 /*FOOTER*/
 
 footer {
- font-size: 1.6rem;
+	font-size: 1.6rem;
 }
 
 /*ABOUT US*/
 
 .aboutus {
- &-hero {
-  background-image: url('../img/raking-bg.jpg');
-  background-position: bottom;
- }
+	&-hero {
+		background-image: url("../img/raking-bg.jpg");
+		background-position: bottom;
+	}
+}
+
+.icon-style {
+	filter: invert(65%) sepia(53%) saturate(462%) hue-rotate(347deg)
+		brightness(101%) contrast(99%);
+}
+
+.card {
+	border: none;
+}
+
+
+/*SERVICES*/
+
+.services {
+	&-hero {
+		background-image: url("../img/saw-m.jpg");
+		background-position: center;
+	}
+}
+
+.service-hero-box {
+  position: relative;
+  height: 300px;
+  background-position: center;
+  background-size: cover;
+  z-index: 0;
+
+  p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 3rem;
+    text-transform: uppercase;
+    color: #fff;
+  }
+}
+
+.box {
+  &-one {
+    background-image: url("../img/garden-work.jpg");
+  }
+
+  &-two {
+    background-image: url("../img/felling-bg-s.jpg");
+  }
+
+  &-three {
+    background-image: url("../img/house-renovation.jpg");
+  }
+  
+  &-four {
+    background-image: url("../img/gardener-xs.jpg");
+  }
+}
+
+/* SERVICES */ 
+
+.projects {
+	&-hero {
+		background-image: url("../img/project-bg.jpg");
+		background-position: center;
+	}
+
+  .card img {
+    height: 240px;
+    object-fit: cover;
+  }
+
+  .btn {
+    font-size: 1.4rem;
+    text-transform: uppercase;
+  }
+}
+
+/*CONTACT*/
+
+.contact {
+	&-hero {
+		background-image: url("../img/contact.jpg");
+		background-position: center;
+	}
+  h2 {
+    text-transform: uppercase;
+	font-weight: bold;
+	font-size: 2.6rem;
+  }
+
+  input, select, textarea {
+    font-size: 1.6rem;
+  }
+
+  .btn {
+    padding: 0.3em 0.8em;
+    font-size: 2rem;
+  }
+
+  &-map iframe {
+    width: 100%;
+    min-height: 400px;
+  }
+}
+
+
+
+
+@media screen and (min-width: 1400px) {
+	.carousel-item {
+		height: 600px;
+	}
+
+	.carousel-img-one {
+		background-image: url("../img/saw-m.jpg");
+	}
+	.carousel-img-two {
+		background-image: url("../img/gardener-m.jpg");
+	}
+	.carousel-img-three {
+		background-image: url("../img/renovation-m.jpg");
+	}
 }
