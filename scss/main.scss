@@ -3,65 +3,64 @@
 *,
 *::after,
 *::before {
-	box-sizing: border-box;
-	margin: 0;
-	padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 html {
-	font-size: 62.5%;
+  font-size: 62.5%;
 }
 
 body {
-	font-family: "Poppins", sans-serif;
-	font-size: 1.6rem;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.6rem;
   color: $dark-green;
 }
 
 .hero-shadow {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	background-color: rgba(43, 36, 27, 0.7);
-	z-index: -1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(43, 36, 27, 0.7);
+  z-index: -1;
 }
 
 .top-hero {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	position: relative;
-	height: 300px;
-	background-size: cover;
-	z-index: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  height: 300px;
+  background-size: cover;
+  z-index: 0;
 
-	&-logo {
-		margin-bottom: 15px;
-	}
+  &-logo {
+    margin-bottom: 15px;
+  }
 
-	&-text {
-		font-size: 3.6rem;
-		text-transform: uppercase;
+  &-text {
+    font-size: 3.6rem;
+    text-transform: uppercase;
     font-weight: 500;
-	}
+  }
 }
 
-
 .underline {
-	display: block;
-	margin: 0 auto;
-	width: 90px;
+  display: block;
+  margin: 0 auto;
+  width: 90px;
 
-	&-text {
-		text-align: center;
-		font-size: 1.4rem;
-		color: $orange;
-		margin-top: 7px;
-		letter-spacing: 0.1rem;
-	}
+  &-text {
+    text-align: center;
+    font-size: 1.4rem;
+    color: $orange;
+    margin-top: 7px;
+    letter-spacing: 0.1rem;
+  }
 }
 
 .heading {
@@ -71,71 +70,71 @@ body {
 }
 
 .bg-gold {
-	background-color: $gold;
+  background-color: $gold;
 }
 
 .bg-brown {
-	background-color: #4e7457;
+  background-color: #4e7457;
 }
 
 .navbar-dark .navbar-nav .nav-link {
-	color: #fff;
+  color: #fff;
 }
 
 .navbar-dark .navbar-nav .nav-link.active {
-	color: $orange;
+  color: $orange;
 }
 
 .navbar-dark .navbar-nav .nav-link:focus,
 .navbar-dark .navbar-nav .nav-link:hover {
-	color: $orange;
+  color: $orange;
 }
 
 /*NAV*/
 
 nav {
-	font-size: 2rem;
-	text-transform: uppercase;
+  font-size: 2rem;
+  text-transform: uppercase;
 }
 
 .navbar-toggler {
-	font-size: 3rem;
+  font-size: 3rem;
 }
 
 .nav {
-	&__logo {
-		font-size: 3rem;
-		text-transform: uppercase;
-		font-weight: bold;
-		letter-spacing: 0.1rem;
-		// &-color {
-		//   color: $green;
-		// }
-		img {
-			height: 80px;
-			width: auto;
-		}
-	}
+  &__logo {
+    font-size: 3rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+    // &-color {
+    //   color: $green;
+    // }
+    img {
+      height: 80px;
+      width: auto;
+    }
+  }
 }
 
 /*HEADER*/
 
 header {
-	font-size: 2rem;
+  font-size: 2rem;
 
-	img {
-		position: relative;
-		bottom: 40px;
-	}
+  img {
+    position: relative;
+    bottom: 40px;
+  }
 }
 
 .carousel-item {
-	position: relative;
-	height: 400px;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	z-index: 0;
+  position: relative;
+  height: 400px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 0;
 
   // .logo-j {
   //   max-width: 118px;
@@ -143,16 +142,14 @@ header {
 }
 
 .carousel-img-one {
-	background-image: url("../img/saw-xs.jpg");
+  background-image: url("../img/saw-xs.jpg");
 }
 .carousel-img-two {
-	background-image: url("../img/gardener-xs.jpg");
+  background-image: url("../img/gardener-xs.jpg");
 }
 .carousel-img-three {
-	background-image: url("../img/renovation-s.jpg");
+  background-image: url("../img/renovation-s.jpg");
 }
-
-
 
 /*MAIN*/
 
@@ -160,54 +157,56 @@ header {
 
 .accept-icon {
   width: 35px;
-  filter: invert(65%) sepia(57%) saturate(501%) hue-rotate(354deg) brightness(93%) contrast(83%);
+  filter: invert(65%) sepia(57%) saturate(501%) hue-rotate(354deg)
+    brightness(93%) contrast(83%);
 }
 
 .home {
-	&-boxes {
-		padding: 5em 0;
-	}
+  &-boxes {
+    padding: 5em 0;
+  }
 
-	&-box {
-		&-icon {
-			width: 70px;
-			filter: invert(65%) sepia(57%) saturate(501%) hue-rotate(354deg) brightness(93%) contrast(83%);
-		}
+  &-box {
+    &-icon {
+      width: 70px;
+      filter: invert(65%) sepia(57%) saturate(501%) hue-rotate(354deg)
+        brightness(93%) contrast(83%);
+    }
 
-		h3 {
-			font-size: 2.6rem;
-		}
-	}
+    h3 {
+      font-size: 2.6rem;
+    }
+  }
 
-	&-passion {
-		position: relative;
-		height: 350px;
-		background-image: url("../img/raking.jpg");
-		background-position: center;
-		background-size: cover;
+  &-passion {
+    position: relative;
+    height: 350px;
+    background-image: url("../img/raking.jpg");
+    background-position: center;
+    background-size: cover;
     background-attachment: fixed;
-		z-index: 0;
-	}
+    z-index: 0;
+  }
 
-	&-brand {
-		h3 {
-			font-size: 3rem;
-			font-weight: bold;
-		}
+  &-brand {
+    h3 {
+      font-size: 3rem;
+      font-weight: bold;
+    }
 
-		&-bottom {
-			position: relative;
-			img {
-				position: absolute;
-				bottom: 0;
-				max-width: 250px;
-			}
-		}
-	}
+    &-bottom {
+      position: relative;
+      img {
+        position: absolute;
+        bottom: 0;
+        max-width: 250px;
+      }
+    }
+  }
 }
 
 .rewards {
-  background-image: url('../img/barrow-g8c5c9b16e_1920.jpg');
+  background-image: url("../img/barrow-g8c5c9b16e_1920.jpg");
   background-position: top;
   height: auto;
   min-height: 350px;
@@ -223,7 +222,7 @@ header {
       position: absolute;
       top: 50%;
       left: 50%;
-      transform: translate(-50%,-50%);
+      transform: translate(-50%, -50%);
       color: $orange;
       font-size: 4rem;
     }
@@ -233,81 +232,80 @@ header {
 /*FOOTER*/
 
 footer {
-	font-size: 1.6rem;
+  font-size: 1.6rem;
 }
 
 /*ABOUT US*/
 
 .aboutus {
-	&-hero {
-		background-image: url("../img/raking-bg.jpg");
-		background-position: bottom;
-	}
+  &-hero {
+    background-image: url("../img/raking-bg.jpg");
+    background-position: bottom;
+  }
 }
 
 .icon-style {
-	filter: invert(65%) sepia(57%) saturate(501%) hue-rotate(354deg) brightness(93%) contrast(83%);
+  filter: invert(65%) sepia(57%) saturate(501%) hue-rotate(354deg)
+    brightness(93%) contrast(83%);
 }
 
 .card {
-	border: none;
+  border: none;
 }
-
 
 /*SERVICES*/
 
 .accordion {
-	width: 800px;
-	border-radius: 6px;
-	&-box {
-		margin: 20px;
+  width: 800px;
+  border-radius: 6px;
+  &-box {
+    margin: 20px;
 
-		img {
-			margin-right: 20px;
-		}
-	}
+    img {
+      margin-right: 20px;
+    }
+  }
 
-	&-btn {
-		padding: 1em;
-		width: 100%;
-		font-size: 3rem;
-		text-align: left;
-		border:none;
-		border-radius: 6px;
-		cursor: pointer;
-		transition: background-color .3s;
-	}
+  &-btn {
+    padding: 1em;
+    width: 100%;
+    font-size: 3rem;
+    text-align: left;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
 
-	&-btn:hover {
-		background-color: green;
-		color: #fff;
-		outline: none;
-	}
+  &-btn:hover {
+    background-color: green;
+    color: #fff;
+    outline: none;
+  }
 
-	&-info {
-		display: none;
-		padding: 1em 2em;
+  &-info {
+    display: none;
+    padding: 1em 2em;
 
-		&-text {
-			text-align: left;
+    &-text {
+      text-align: left;
 
-			span {
-				font-style: italic;
-			}
-		}
-	}
+      span {
+        font-style: italic;
+      }
+    }
+  }
 }
 
-
 .active {
-	display: block;
+  display: block;
 }
 
 .services {
-	&-hero {
-		background-image: url("../img/saw-m.jpg");
-		background-position: center;
-	}
+  &-hero {
+    background-image: url("../img/saw-m.jpg");
+    background-position: center;
+  }
 }
 
 .service-hero-box {
@@ -340,19 +338,19 @@ footer {
   &-three {
     background-image: url("../img/house-renovation.jpg");
   }
-  
+
   &-four {
     background-image: url("../img/gardener-xs.jpg");
   }
 }
 
-/* SERVICES */ 
+/* SERVICES */
 
 .projects {
-	&-hero {
-		background-image: url("../img/project-bg.jpg");
-		background-position: center;
-	}
+  &-hero {
+    background-image: url("../img/project-bg.jpg");
+    background-position: center;
+  }
 
   .card img {
     height: 240px;
@@ -368,17 +366,19 @@ footer {
 /*CONTACT*/
 
 .contact {
-	&-hero {
-		background-image: url("../img/contact.jpg");
-		background-position: center;
-	}
+  &-hero {
+    background-image: url("../img/contact.jpg");
+    background-position: center;
+  }
   h2 {
     text-transform: uppercase;
-	font-weight: bold;
-	font-size: 2.6rem;
+    font-weight: bold;
+    font-size: 2.6rem;
   }
 
-  input, select, textarea {
+  input,
+  select,
+  textarea {
     font-size: 1.6rem;
   }
 
@@ -393,21 +393,42 @@ footer {
   }
 }
 
+@media screen and (min-width: 768px) {
+  .home-brand {
+    .container {
+      position: relative;
+    }
 
+    .home-bottom {
+      position: absolute;
+      bottom: 0;
+      right: 2%;
+    }
+  }
+}
 
+@media screen and (min-width: 100px) {
+  .home-brand {
+    .home-bottom {
+      img {
+        width: 585px;
+      }
+    }
+  }
+}
 
 @media screen and (min-width: 1400px) {
-	.carousel-item {
-		height: 600px;
-	}
+  .carousel-item {
+    height: 600px;
+  }
 
-	.carousel-img-one {
-		background-image: url("../img/saw-m.jpg");
-	}
-	.carousel-img-two {
-		background-image: url("../img/gardener-m.jpg");
-	}
-	.carousel-img-three {
-		background-image: url("../img/renovation-m.jpg");
-	}
+  .carousel-img-one {
+    background-image: url("../img/saw-m.jpg");
+  }
+  .carousel-img-two {
+    background-image: url("../img/gardener-m.jpg");
+  }
+  .carousel-img-three {
+    background-image: url("../img/renovation-m.jpg");
+  }
 }
