@@ -1,444 +1,388 @@
 <!DOCTYPE html>
 <html lang="pl">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Jawor Wycinka Drzew</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="./css/main.css" />
-    <script
-      src="https://kit.fontawesome.com/b43780f406.js"
-      crossorigin="anonymous"
-    ></script>
-  </head>
 
-  <body>
-    <nav
-      class="navbar navbar-expand-lg navbar-dark bg-brown text-light py-3 sticky-top"
-    >
-      <div class="container">
-        <button
-          class="navbar-toggler ms-auto"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNavAltMarkup"
-          aria-controls="navbarNavAltMarkup"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav m-auto">
-            <a class="nav-link px-lg-3 active" href="#">Home</a>
-            <a class="nav-link px-lg-3" href="aboutus.html">O nas</a>
-            <a class="nav-link px-lg-3" href="services.html">FAQ</a>
-            <a class="nav-link px-lg-3" href="projects.html">Realizacje</a>
-            <a class="nav-link px-lg-3" href="contact.html">Kontakt</a>
-          </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jawor Wycinka Drzew</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+  <link rel="stylesheet" href="./css/main.css" />
+  <script src="https://kit.fontawesome.com/b43780f406.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-brown text-light py-3 sticky-top">
+    <div class="container">
+      <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse"
+        data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav m-auto">
+          <a class="nav-link px-lg-3 active" href="#">Home</a>
+          <a class="nav-link px-lg-3" href="aboutus.html">O nas</a>
+          <a class="nav-link px-lg-3" href="services.html">FAQ</a>
+          <a class="nav-link px-lg-3" href="contact.html">Kontakt</a>
         </div>
       </div>
-    </nav>
+    </div>
+  </nav>
 
-    <header>
-      <div
-        id="carouselExampleCaptions"
-        class="carousel slide"
-        data-bs-ride="carousel"
-      >
-        <div class="carousel-indicators">
-          <button
-            type="button"
-            data-bs-target="#carouselExampleCaptions"
-            data-bs-slide-to="0"
-            class="active"
-            aria-current="true"
-            aria-label="Slide 1"
-          ></button>
-          <button
-            type="button"
-            data-bs-target="#carouselExampleCaptions"
-            data-bs-slide-to="1"
-            aria-label="Slide 2"
-          ></button>
-          <button
-            type="button"
-            data-bs-target="#carouselExampleCaptions"
-            data-bs-slide-to="2"
-            aria-label="Slide 3"
-          ></button>
-        </div>
-        <div class="carousel-inner text-light text-center">
-          <div class="carousel-item carousel-img-one active">
-            <div
-              class="carousel-caption h-100 p-5 d-flex flex-column justify-content-end justify-content-md-center align-items-center"
-            >
-              <img src="./img/jawor2-logo2.png" alt="" />
-              <p class="display-3">Wycinka drzew</p>
-              <p class="d-none d-sm-block">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-              </p>
-            </div>
-            <div class="hero-shadow"></div>
-          </div>
-          <div class="carousel-item carousel-img-two">
-            <div
-              class="carousel-caption h-100 p-5 d-flex flex-column justify-content-end justify-content-md-center align-items-center"
-            >
-              <img src="./img/jawor2-logo2.png" alt="" />
-              <p class="display-3">Usługi ogrodnicze</p>
-              <p class="d-none d-sm-block">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-              </p>
-            </div>
-            <div class="hero-shadow"></div>
-          </div>
-          <div class="carousel-item carousel-img-three">
-            <div
-              class="carousel-caption h-100 p-5 d-flex flex-column justify-content-end justify-content-md-center align-items-center"
-            >
-              <img src="./img/jawor2-logo2.png" alt="" />
-              <p class="display-3">Kompleksowe remonty mieszkań</p>
-              <p class="d-none d-sm-block">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-              </p>
-            </div>
-            <div class="hero-shadow"></div>
-          </div>
-        </div>
-        <button
-          class="carousel-control-prev"
-          type="button"
-          data-bs-target="#carouselExampleCaptions"
-          data-bs-slide="prev"
-        >
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button
-          class="carousel-control-next"
-          type="button"
-          data-bs-target="#carouselExampleCaptions"
-          data-bs-slide="next"
-        >
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
+  <header>
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
       </div>
-    </header>
-
-    <main>
-      <section class="home-boxes">
-        <div class="container text-center">
-          <div class="row">
-            <div class="col-md-4 home-box mb-5 mb-md-0">
-              <img class="mb-4 home-box-icon" src="img/chain-saw.png" alt="" />
-              <h3>Lorem, ipsum dolor.</h3>
-              <p class="m-0">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              </p>
-            </div>
-
-            <div class="col-md-4 home-box mb-5 mb-md-0">
-              <img class="mb-4 home-box-icon" src="img/renovation.png" alt="" />
-              <h3>Lorem, ipsum dolor.</h3>
-              <p class="m-0">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              </p>
-            </div>
-
-            <div class="col-md-4 home-box mb-5 mb-md-0">
-              <img class="mb-4 home-box-icon" src="img/rake.png" alt="" />
-              <h3>Lorem, ipsum dolor.</h3>
-              <p class="m-0">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              </p>
-            </div>
+      <div class="carousel-inner text-light text-center">
+        <div class="carousel-item carousel-img-one active">
+          <div
+            class="carousel-caption h-100 p-5 d-flex flex-column justify-content-end justify-content-md-center align-items-center">
+            <img src="./img/jawor-logo.png" alt="" />
+            <p class="display-3">Wycinka drzew</p>
+            <p class="d-none d-sm-block">
+              Wycinka drzew i krzewów, zabiegi sanitarno - pielęgnacyjne
+            </p>
           </div>
-        </div>
-      </section>
-
-      <section class="home-passion p-5 text-light">
-        <div class="container h-100 d-flex flex-column justify-content-center">
-          <p class="display-4">Istniejemy na rynku z powodzeniem od wielu lat.</p>
-          <p>
-            Posiadamy wieloletnie doświadczenie w branży i wykwalifikowaną kadrę z uprawnieniami do pracy na wysokościach.
-          </p>
-
           <div class="hero-shadow"></div>
         </div>
-      </section>
+        <div class="carousel-item carousel-img-two">
+          <div
+            class="carousel-caption h-100 p-5 d-flex flex-column justify-content-end justify-content-md-center align-items-center">
+            <img src="./img/jawor-logo.png" alt="" />
+            <p class="display-3">Usługi ogrodnicze</p>
+            <p class="d-none d-sm-block">
+              Prace ogrodowe, koszenie, grabienie i odśnieżanie
+            </p>
+          </div>
+          <div class="hero-shadow"></div>
+        </div>
+        <div class="carousel-item carousel-img-three">
+          <div
+            class="carousel-caption h-100 p-5 d-flex flex-column justify-content-end justify-content-md-center align-items-center">
+            <img src="./img/jawor-logo.png" alt="" />
+            <p class="display-3">Kompleksowe remonty mieszkań</p>
+            <p class="d-none d-sm-block">
+              Malowanie elewacji, sufity podwieszane, gładzie gipsowe
+            </p>
+          </div>
+          <div class="hero-shadow"></div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </header>
 
-      <section class="home-brand pt-5">
-        <img class="underline" src="./img/underline.png" alt="" />
-        <p class="underline-text text-uppercase">jawor</p>
-        <h2 class="display-2 text-center mb-0 heading">O firmie</h2>
+  <main>
+    <section class="offer pt-5">
 
-        <div class="container pt-5">
-          <div class="row m-0">
-            <div class="col-md-6 align-self-start">
-              <h3 class="pt-5">Historia firmy Jawor</h3>
-              <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error
-                architecto corrupti omnis reprehenderit a pariatur dignissimos
-                sed modi voluptatibus tempore? Lorem ipsum dolor, sit amet
-                consectetur adipisicing elit. Error architecto corrupti omnis
-                reprehenderit a pariatur dignissimos sed modi voluptatibus
-                tempore?
-              </p>
+      <img class="underline" src="./img/underline.png" alt="">
+      <p class="underline-text text-uppercase">oferujemy</p>
+      <h2 class="display-2 text-center mb-0 heading">Nasze usługi</h2>
 
-              <h3 class="pt-5">Co możemy zaoferować?</h3>
-              <div class="d-flex align-items-center mb-4">
-                <img
-                  class="accept-icon align-self-start"
-                  src="./img/accept.svg"
-                  alt="ikona akceptuj"
-                />
-                <p class="m-0 ms-2">Wycinka drzew i krzewów</p>
-              </div>
+      <div class="container py-5">
+        <div class="row row-cols-md-2 row-cols-lg-3">
 
-              <div class="d-flex align-items-center mb-4">
-                <img
-                  class="accept-icon align-self-start"
-                  src="./img/accept.svg"
-                  alt="ikona akceptuj"
-                />
-                <p class="m-0 ms-2">
-                  Wycinka drzew w warunkach Utrudnionych w miejscach trudno
-                  dostępnych, wymagających zastosowania technik alpinistycznych
-                  oraz specjalistycznego sprzętu (cmentarze, linie elektryczne,
-                  inne nietypowe lokalizacje drzew)
-                </p>
-              </div>
-
-              <div class="d-flex align-items-center mb-4">
-                <img
-                  class="accept-icon align-self-start"
-                  src="./img/accept.svg"
-                  alt="ikona akceptuj"
-                />
-                <p class="m-0 ms-2">
-                  Wykonywanie zabiegów sanitarno - pielęgnacyjnych w koronie
-                  drzew:
-                </p>
-              </div>
-
-              <div class="d-flex align-items-center mb-4 ms-5">
-                <img
-                  class="accept-icon align-self-start"
-                  src="./img/accept.svg"
-                  alt="ikona akceptuj"
-                />
-                <p class="m-0 ms-2">
-                  Cięcia prześwietlające (przerzedzające koronę drzewa)
-                </p>
-              </div>
-
-              <div class="d-flex align-items-center mb-4 ms-5">
-                <img
-                  class="accept-icon align-self-start"
-                  src="./img/accept.svg"
-                  alt="ikona akceptuj"
-                />
-                <p class="m-0 ms-2">Cięcia sanitarne</p>
-              </div>
-
-              <div class="d-flex align-items-center mb-4 ms-5">
-                <img
-                  class="accept-icon align-self-start"
-                  src="./img/accept.svg"
-                  alt="ikona akceptuj"
-                />
-                <p class="m-0 ms-2">Cięcia korygujące</p>
-              </div>
-
-              <div class="d-flex align-items-center mb-4 ms-5">
-                <img
-                  class="accept-icon align-self-start"
-                  src="./img/accept.svg"
-                  alt="ikona akceptuj"
-                />
-                <p class="m-0 ms-2">
-                  Cięcia tzw. nieprzyrodnicze (techniczne), które likwidują lub
-                  łagodzą zagrożenia, kolizje drzew z różnymi urządzeniami
-                  technicznymi i architekturą
-                </p>
-              </div>
-
-              <div class="d-flex align-items-center mb-4 ms-5">
-                <img
-                  class="accept-icon align-self-start"
-                  src="./img/accept.svg"
-                  alt="ikona akceptuj"
-                />
-                <p class="m-0 ms-2">Zabezpieczanie ubytków</p>
-              </div>
-
-              <div class="d-flex align-items-center mb-4 ms-5">
-                <img
-                  class="accept-icon align-self-start"
-                  src="./img/accept.svg"
-                  alt="ikona akceptuj"
-                />
-                <p class="m-0 ms-2">Zakładanie wiązań</p>
-              </div>
-
-              <div class="d-flex align-items-center mb-4">
-                <img
-                  class="accept-icon align-self-start"
-                  src="./img/accept.svg"
-                  alt="ikona akceptuj"
-                />
-                <p class="m-0 ms-2">Nasadzenia drzew i krzewów ozdobnych</p>
-              </div>
-
-              <div class="d-flex align-items-center mb-4">
-                <img
-                  class="accept-icon align-self-start"
-                  src="./img/accept.svg"
-                  alt="ikona akceptuj"
-                />
-                <p class="m-0 ms-2">Przesadzanie drzew i krzewów ozdobnych</p>
-              </div>
-
-              <div class="d-flex align-items-center mb-4">
-                <img
-                  class="accept-icon align-self-start"
-                  src="./img/accept.svg"
-                  alt="ikona akceptuj"
-                />
-                <p class="m-0 ms-2">Frezowanie pni (karp)</p>
-              </div>
-
-              <div class="d-flex align-items-center mb-4">
-                <img
-                  class="accept-icon align-self-start"
-                  src="./img/accept.svg"
-                  alt="ikona akceptuj"
-                />
-                <p class="m-0 ms-2">Karczowanie pni (karp)</p>
-              </div>
-
-              <div class="d-flex align-items-center mb-4">
-                <img
-                  class="accept-icon align-self-start"
-                  src="./img/accept.svg"
-                  alt="ikona akceptuj"
-                />
-                <p class="m-0 ms-2">Zrębkowanie gałęzi</p>
-              </div>
-
-              <div class="d-flex align-items-center mb-4">
-                <img
-                  class="accept-icon align-self-start"
-                  src="./img/accept.svg"
-                  alt="ikona akceptuj"
-                />
-                <p class="m-0 ms-2">Koszenie trawników</p>
-              </div>
-
-              <div class="d-flex align-items-center mb-4">
-                <img
-                  class="accept-icon align-self-start"
-                  src="./img/accept.svg"
-                  alt="ikona akceptuj"
-                />
-                <p class="m-0 ms-2">Odśnieżanie dachów</p>
-              </div>
-
-              <div class="d-flex align-items-center mb-4">
-                <img
-                  class="accept-icon align-self-start"
-                  src="./img/accept.svg"
-                  alt="ikona akceptuj"
-                />
-                <p class="m-0 ms-2">Wynajem specjalistycznych maszyn tj:</p>
-              </div>
-
-              <div class="d-flex align-items-center mb-4 ms-5">
-                <img
-                  class="accept-icon align-self-start"
-                  src="./img/accept.svg"
-                  alt="ikona akceptuj"
-                />
-                <p class="m-0 ms-2">Rębak – urządzenie do rąbania gałęz</p>
-              </div>
-
-              <div class="d-flex align-items-center mb-4 ms-5">
-                <img
-                  class="accept-icon align-self-start"
-                  src="./img/accept.svg"
-                  alt="ikona akceptuj"
-                />
-                <p class="m-0 ms-2">Frezarka – urządzenie do usuwania karp</p>
+          <div class="col-md-6 col-lg-4">
+            <div class="card p-4 mb-3 bg-white">
+              <div class="row g-0">
+                <div class="col-4 d-flex justify-content-center align-items-center">
+                  <img class="icon-style" src="./img/saw-machine.png" alt="">
+                </div>
+                <div class="col-8">
+                  <div class="card-body">
+                    <h3 class="card-title">Wycinka drzew</h3>
+                    <p class="card-text">wycinka drzew i krzewów, zabiegi sanitarno - pielęgnacyjne w koronie drzew</p>
+                  </div>
+                </div>
               </div>
             </div>
-            <div class="home-bottom col-md-6 d-flex justify-content-center">
-              <img src="./img/gardener.png" alt="" />
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="card p-4 mb-3 bg-white">
+              <div class="row g-0">
+                <div class="col-4 d-flex justify-content-center align-items-center">
+                  <img class="icon-style" src="./img/climber.png" alt="">
+                </div>
+                <div class="col-8">
+                  <div class="card-body">
+                    <h3 class="card-title">Metoda alpinistyczna</h3>
+                    <p class="card-text">wycinka drzew w miejscach trudno dostępnych z zastosowaniem technik
+                      alpinistycznych oraz specjalistycznego sprzętu</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="card p-4 mb-3 bg-white">
+              <div class="row g-0">
+                <div class="col-4 d-flex justify-content-center align-items-center">
+                  <img class="icon-style" src="./img/shovel-and-rake.png" alt="">
+                </div>
+                <div class="col-8">
+                  <div class="card-body">
+                    <h3 class="card-title">Grabienie i odśnieżanie</h3>
+                    <p class="card-text">grabienie liści, odśnieżanie dachów, prace porządkowe</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="card p-4 mb-3 bg-white">
+              <div class="row g-0">
+                <div class="col-4 d-flex justify-content-center align-items-center">
+                  <img class="icon-style" src="./img/renovation.png" alt="">
+                </div>
+                <div class="col-8">
+                  <div class="card-body">
+                    <h3 class="card-title">Kompeksowe remonty</h3>
+                    <p class="card-text">malowanie, sufity podwieszane, gładzie gipsowe, karton gips</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="card p-4 mb-3 bg-white">
+              <div class="row g-0">
+                <div class="col-4 d-flex justify-content-center align-items-center">
+                  <img class="icon-style" src="./img/lawnmower.png" alt="">
+                </div>
+                <div class="col-8">
+                  <div class="card-body">
+                    <h3 class="card-title">Koszenie</h3>
+                    <p class="card-text">koszenie, prace glebogryzarką, wertykulacja trawników</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="card p-4 mb-3 bg-white">
+              <div class="row g-0">
+                <div class="col-4 d-flex justify-content-center align-items-center">
+                  <img class="icon-style" src="./img/planting.png" alt="">
+                </div>
+                <div class="col-8">
+                  <div class="card-body">
+                    <h3 class="card-title">Prace ogrodowe</h3>
+                    <p class="card-text">układanie trawników z rolki, sianie trawników, strzyżenie żywopłotów</p>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <section
-        class="home-passion p-5 text-light rewards d-flex align-items-center"
-      >
-        <div class="container text-center">
-          <div class="row">
-            <div class="col-md-4 home-box mb-5 mb-md-0">
-              <div class="count">
-                <img class="mb-4 home-box-icon" src="img/laurel.png" alt="" />
-                <h3>411</h3>
-              </div>
-              <h3>Zadowolonych klientów</h3>
-            </div>
+    <section class="home-passion p-5 text-light">
+      <div class="container h-100 d-flex flex-column justify-content-center">
+        <p class="display-4">Istniejemy na rynku z powodzeniem od wielu lat.</p>
+        <p>
+          Posiadamy wieloletnie doświadczenie w branży i wykwalifikowaną kadrę z uprawnieniami do pracy na wysokościach.
+        </p>
 
-            <div class="col-md-4 home-box mb-5 mb-md-0">
-              <div class="count">
-                <img class="mb-4 home-box-icon" src="img/laurel.png" alt="" />
-                <h3>511</h3>
-              </div>
-              <h3>Zrealizowanych zleceń</h3>
-            </div>
-
-            <div class="col-md-4 home-box mb-5 mb-md-0">
-              <div class="count">
-                <img class="mb-4 home-box-icon" src="img/laurel.png" alt="" />
-                <h3>121</h3>
-              </div>
-              <h3>Wykwalifikowanych pracowników</h3>
-            </div>
-          </div>
-        </div>
         <div class="hero-shadow"></div>
-      </section>
+      </div>
+    </section>
 
-      <section class="pt-5">
-        <img class="underline" src="./img/underline.png" alt="" />
-        <p class="underline-text text-uppercase">klienci o nas</p>
-        <h2 class="display-2 text-center mb-0 heading">Opinie klientów</h2>
-      </section>
-    </main>
+    <section class="home-brand pt-5">
+      <img class="underline" src="./img/underline.png" alt="" />
+      <p class="underline-text text-uppercase">jawor</p>
+      <h2 class="display-2 text-center mb-0 heading">Oferta</h2>
 
-    <footer class="bg-brown text-light">
-      <p class="py-5 mb-0 text-center">&copy; 2021 Copyright Jawor</p>
-    </footer>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+      <div class="container pt-5">
+        <div class="row m-0">
+          <div class="col-md-6 align-self-start">
+            <h3 class="pt-5 company-heading">Firma Jawor</h3>
+            <p>
+              Firma istnieje na rynku z powodzeniem od wielu lat. Świadczymy usługi związane z pielęgnacją zieleni , w
+              tym wycinką drzew i formowaniem krzewów. Posiadamy wieloletnie doświadczenie w branży i wykwalifikowaną
+              kadrę z uprawnieniami do pracy na wysokościach. Pracujemy Pracujemy na specjalistycznym sprzęcie m.in.
+              marki Stihl. Działamy na terenie woj. mazowieckiego , jak i również pozostałych częściach Polski.
+            </p>
+
+            <h3 class="pt-5">Co możemy zaoferować?</h3>
+            <div class="d-flex align-items-center mb-4">
+              <img class="accept-icon align-self-start" src="./img/accept.svg" alt="ikona akceptuj" />
+              <p class="m-0 ms-2">Wycinka drzew i krzewów</p>
+            </div>
+
+            <div class="d-flex align-items-center mb-4">
+              <img class="accept-icon align-self-start" src="./img/accept.svg" alt="ikona akceptuj" />
+              <p class="m-0 ms-2">
+                Wycinka drzew w warunkach Utrudnionych w miejscach trudno
+                dostępnych, wymagających zastosowania technik alpinistycznych
+                oraz specjalistycznego sprzętu (cmentarze, linie elektryczne,
+                inne nietypowe lokalizacje drzew)
+              </p>
+            </div>
+
+            <div class="d-flex align-items-center mb-4">
+              <img class="accept-icon align-self-start" src="./img/accept.svg" alt="ikona akceptuj" />
+              <p class="m-0 ms-2">
+                Wykonywanie zabiegów sanitarno - pielęgnacyjnych w koronie
+                drzew:
+              </p>
+            </div>
+
+            <div class="d-flex align-items-center mb-4 ms-5">
+              <img class="accept-icon approval-icon align-self-start" src="./img/approval.svg" alt="ikona akceptuj" />
+              <p class="m-0 ms-2">
+                Cięcia prześwietlające (przerzedzające koronę drzewa)
+              </p>
+            </div>
+
+            <div class="d-flex align-items-center mb-4 ms-5">
+              <img class="accept-icon approval-icon align-self-start" src="./img/approval.svg" alt="ikona akceptuj" />
+              <p class="m-0 ms-2">Cięcia sanitarne</p>
+            </div>
+
+            <div class="d-flex align-items-center mb-4 ms-5">
+              <img class="accept-icon approval-icon align-self-start" src="./img/approval.svg" alt="ikona akceptuj" />
+              <p class="m-0 ms-2">Cięcia korygujące</p>
+            </div>
+
+            <div class="d-flex align-items-center mb-4 ms-5">
+              <img class="accept-icon approval-icon align-self-start" src="./img/approval.svg" alt="ikona akceptuj" />
+              <p class="m-0 ms-2">
+                Cięcia tzw. nieprzyrodnicze (techniczne), które likwidują lub
+                łagodzą zagrożenia, kolizje drzew z różnymi urządzeniami
+                technicznymi i architekturą
+              </p>
+            </div>
+
+            <div class="d-flex align-items-center mb-4 ms-5">
+              <img class="accept-icon approval-icon align-self-start" src="./img/approval.svg" alt="ikona akceptuj" />
+              <p class="m-0 ms-2">Zabezpieczanie ubytków</p>
+            </div>
+
+            <div class="d-flex align-items-center mb-4 ms-5">
+              <img class="accept-icon approval-icon align-self-start" src="./img/approval.svg" alt="ikona akceptuj" />
+              <p class="m-0 ms-2">Zakładanie wiązań</p>
+            </div>
+
+            <div class="d-flex align-items-center mb-4">
+              <img class="accept-icon align-self-start" src="./img/accept.svg" alt="ikona akceptuj" />
+              <p class="m-0 ms-2">Nasadzenia drzew i krzewów ozdobnych</p>
+            </div>
+
+            <div class="d-flex align-items-center mb-4">
+              <img class="accept-icon align-self-start" src="./img/accept.svg" alt="ikona akceptuj" />
+              <p class="m-0 ms-2">Przesadzanie drzew i krzewów ozdobnych</p>
+            </div>
+
+            <div class="d-flex align-items-center mb-4">
+              <img class="accept-icon align-self-start" src="./img/accept.svg" alt="ikona akceptuj" />
+              <p class="m-0 ms-2">Frezowanie pni (karp)</p>
+            </div>
+
+            <div class="d-flex align-items-center mb-4">
+              <img class="accept-icon align-self-start" src="./img/accept.svg" alt="ikona akceptuj" />
+              <p class="m-0 ms-2">Karczowanie pni (karp)</p>
+            </div>
+
+            <div class="d-flex align-items-center mb-4">
+              <img class="accept-icon align-self-start" src="./img/accept.svg" alt="ikona akceptuj" />
+              <p class="m-0 ms-2">Zrębkowanie gałęzi</p>
+            </div>
+
+            <div class="d-flex align-items-center mb-4">
+              <img class="accept-icon align-self-start" src="./img/accept.svg" alt="ikona akceptuj" />
+              <p class="m-0 ms-2">Koszenie trawników</p>
+            </div>
+
+            <div class="d-flex align-items-center mb-4">
+              <img class="accept-icon align-self-start" src="./img/accept.svg" alt="ikona akceptuj" />
+              <p class="m-0 ms-2">Odśnieżanie dachów</p>
+            </div>
+
+            <div class="d-flex align-items-center mb-4">
+              <img class="accept-icon align-self-start" src="./img/accept.svg" alt="ikona akceptuj" />
+              <p class="m-0 ms-2">Wynajem specjalistycznych maszyn tj:</p>
+            </div>
+
+            <div class="d-flex align-items-center mb-4 ms-5">
+              <img class="accept-icon approval-icon align-self-start" src="./img/approval.svg" alt="ikona akceptuj" />
+              <p class="m-0 ms-2">Rębak – urządzenie do rąbania gałęz</p>
+            </div>
+
+            <div class="d-flex align-items-center pb-5 mb-4 ms-5">
+              <img class="accept-icon approval-icon align-self-start" src="./img/approval.svg" alt="ikona akceptuj" />
+              <p class="m-0 ms-2">Frezarka – urządzenie do usuwania karp</p>
+            </div>
+          </div>
+          <div class="home-bottom col-md-6 d-flex justify-content-center">
+            <img src="./img/gardener.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="home-passion p-5 text-light rewards d-flex align-items-center">
+      <div class="container text-center">
+        <div class="row">
+          <div class="col-md-4 home-box mb-5 mb-md-0">
+            <div class="count">
+              <img class="mb-4 home-box-icon" src="img/laurel.png" alt="" />
+              <h3>411</h3>
+            </div>
+            <h3>Zadowolonych klientów</h3>
+          </div>
+
+          <div class="col-md-4 home-box mb-5 mb-md-0">
+            <div class="count">
+              <img class="mb-4 home-box-icon" src="img/laurel.png" alt="" />
+              <h3>511</h3>
+            </div>
+            <h3>Zrealizowanych zleceń</h3>
+          </div>
+
+          <div class="col-md-4 home-box mb-5 mb-md-0">
+            <div class="count">
+              <img class="mb-4 home-box-icon" src="img/laurel.png" alt="" />
+              <h3>121</h3>
+            </div>
+            <h3>Wykwalifikowanych pracowników</h3>
+          </div>
+        </div>
+      </div>
+      <div class="hero-shadow"></div>
+    </section>
+  </main>
+
+  <footer class="bg-brown text-light">
+    <div class="container d-flex justify-content-between">
+      <p class="py-5 mb-0"><a href="">Polityka prywatności</a></p>
+      <p class="py-5 mb-0">&copy; 2021 Copyright Jawor</p>
+      <p class="py-5 mb-0">Projekt i realizacja: <a href="https://www.instagram.com/milko.design/">MILKO DESIGN</a></p>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>
